@@ -5,14 +5,14 @@
 """
 
 import jieba
-import http.client
-import hashlib
-import urllib
-import random
-import json
-import time
-from utils.utils import write_samples
-import os
+# import http.client
+# import hashlib
+# import urllib
+# import random
+# import json
+# import time
+# from utils.utils import write_samples
+# import os
 from eda import *
 
 def aug_continue(sample_path, translate_path):

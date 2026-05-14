@@ -5,15 +5,15 @@
 @DESCRIPTION: 采用回译的方法来实现文本的数据增强
 """
 
-import jieba
+# import jieba
 import http.client
 import hashlib
 import urllib
 import random
 import json
 import time
-from utils.utils import write_samples
-import os
+# from utils.utils import write_samples
+# import os
 from eda import *
 
 def translate(q, src_lang, tgt_lang):

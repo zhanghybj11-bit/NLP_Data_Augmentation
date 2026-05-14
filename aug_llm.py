@@ -4,15 +4,15 @@
 @DESCRIPTION: 采用大模型的方法来实现文本的数据增强
 """
 
-import jieba
-import http.client
-import hashlib
-import urllib
-import random
-import json
-import time
-from utils.utils import write_samples
-import os
+# import jieba
+# import http.client
+# import hashlib
+# import urllib
+# import random
+# import json
+# import time
+# from utils.utils import write_samples
+# import os
 from openai import OpenAI
 # Set OpenAI's API key and API base to use vLLM's API server.
 openai_api_key = "EMPTY"
