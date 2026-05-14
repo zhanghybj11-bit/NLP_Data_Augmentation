@@ -24,8 +24,8 @@ def translate(q, src_lang, tgt_lang):
     :return:
     """
 
-    appid = '20250306002294404'  # Fill in your AppID
-    secretKey = 'p8heLpQOWoNAKquzdUAT'  # Fill in your key
+    appid = '2025030600229xxxx'  # Fill in your AppID
+    secretKey = 'aaaaaaaaaaaaaaa'  # Fill in your key
 
     httpClient = None
     myurl = '/api/trans/vip/translate'
